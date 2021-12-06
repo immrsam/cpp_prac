@@ -1,0 +1,3 @@
+#!/bin/bash
+
+explorer.exe "https://www.programiz.com/cpp-programming/examples"
