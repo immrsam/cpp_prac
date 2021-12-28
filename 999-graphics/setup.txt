@@ -1,0 +1,18 @@
+-----------------------------
+Accessing X11 from within WSL
+-----------------------------
+open CMD
+run WSL then exit to generate IP
+run ipconfig
+Ethernet adapter vEthernet (WSL) copy IPv4 Address '172.27.128.1' for example
+Back in WSL
+export DISPLAY='copied ip address':0.0
+example - 
+    export DISPLAY=172.27.128.1:0.0
+Back in windows start XLaunch
+    *multiple windows
+    *start no client
+    *disable access control
+
+now run compiled program
+
